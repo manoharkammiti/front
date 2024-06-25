@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sample Ouptut </title>
+</head>    
+    <body>
+        <div id="xyz">
+            <p>appendchailed</p>
+        <button onclick="hello()">click me</button>
+        </div>
+        <script>
+            function hello(){
+                var x=document.createElement("p");
+                x.textContent="good to see you";
+                document.getElementById("xyz").appendChild(x);
+            }
+        </script>
+    </body>
+</html>

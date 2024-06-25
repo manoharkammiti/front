@@ -1,0 +1,17 @@
+<body>
+    <form id="xyz">
+        <input text="type" id="firstname"></input>
+        <input text-="type" id="lastname"></input>
+        <button onclick="hello()">click me</button>
+    </form>
+        <script>
+            function hello(){
+                var x = document.getElementById("xyz");
+                var z = new FormData(x);
+                for (var y of z.entries()){
+                    console.log(y[0] + ":" + y[1]);
+                }
+            }
+        </script>
+    </form>
+</body>

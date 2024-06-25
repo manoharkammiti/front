@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sample Ouptut </title>
+</head>    
+    <body>
+        <div id="hello">
+            <h1>Existing data</h1>
+        </div>
+        <button onclick="example()">click to Update</button>
+        <script>
+            function example(){
+                var x = "New content"
+                document.getElementById("hello").innerHTML = `<h1>${x}</h1>`;
+            }
+        </script>
+    </body>
+</html>
